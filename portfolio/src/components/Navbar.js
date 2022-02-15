@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap/";
+import { Button, Container, Row } from "react-bootstrap/";
 import "../static/css/navbar.css";
 
 const Navbar = () => {
@@ -7,33 +7,53 @@ const Navbar = () => {
       <Container>
         <Row className="navbar-row">
           <div>
-            <ul class="nav navbar-right">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Personal Projects
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Certifications
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Resume
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
+            <nav className="navbar navbar-expand-xl navbar-dark">
+              <Button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-lable="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </Button>
+              <div className="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li className="nav-item">
+                    <a className="nav-link active" aria-current="page" href="#">
+                      Home
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Personal Projects
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Certifications
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Resume
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Contact
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Credits
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
         </Row>
       </Container>
