@@ -5,10 +5,16 @@ import "../static/css/header.css";
 const Header = () => {
   return (
     <header>
-      <Container>
+      <Container fluid>
         <Row className="row">
           <Col>
             <Image src={profile} className="profile" alt="me"></Image>
+          </Col>
+          <Col>
+            <p className="p">HSHSHSH</p>
+          </Col>
+          <Col>
+            <p className="p">HSHSHSH</p>
           </Col>
         </Row>
       </Container>
