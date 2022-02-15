@@ -1,5 +1,5 @@
-.row {
-    margin: 3%;
+.header-row {
+    margin-top: 3%;
     background-color: black;
 }
 
@@ -8,8 +8,19 @@
     height: 150px;
     width: 150px;
     border-radius: 10%;
+    float: left;
 }
 
-.p {
-    color: aliceblue;
+.info {
+    float: left;
+    margin-top: 3%;
+}
+
+.name {
+    color:white;
+}
+
+.position {
+    color:white;
+    font-style: italic;
 }

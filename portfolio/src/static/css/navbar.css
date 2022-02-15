@@ -1,0 +1,17 @@
+.navbar-row {
+    background-color: rgb(22, 22, 22);
+}
+
+.info {
+    float: left;
+    margin-top: 3%;
+}
+
+.name {
+    color:white;
+}
+
+.position {
+    color:white;
+    font-style: italic;
+}

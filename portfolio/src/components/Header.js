@@ -5,16 +5,14 @@ import "../static/css/header.css";
 const Header = () => {
   return (
     <header>
-      <Container fluid>
-        <Row className="row">
+      <Container>
+        <Row className="header-row rounded-top">
           <Col>
             <Image src={profile} className="profile" alt="me"></Image>
-          </Col>
-          <Col>
-            <p className="p">HSHSHSH</p>
-          </Col>
-          <Col>
-            <p className="p">HSHSHSH</p>
+            <div className="info">
+              <h2 className="name">Douglas Zuniga</h2>
+              <p className="position">Software Developer</p>
+            </div>
           </Col>
         </Row>
       </Container>
