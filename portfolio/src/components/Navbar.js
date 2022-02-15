@@ -7,7 +7,7 @@ const Navbar = () => {
       <Container>
         <Row className="navbar-row">
           <div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="nav navbar-right">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
                   Home
