@@ -1,20 +1,18 @@
 import { Container, Row, Col, Image } from "react-bootstrap/";
-import profile from "../static/images/3AQo1xFw.jpeg";
+import profile from "../static/images/kali.jpg";
 import "../static/css/header.css";
 
 const Header = () => {
   return (
     <header>
-      <Container fluid>
-        <Row className="row">
+      <Container>
+        <Row className="header-row rounded-top">
           <Col>
-            <Image src={profile} className="profile" alt="me"></Image>
-          </Col>
-          <Col>
-            <p className="p">HSHSHSH</p>
-          </Col>
-          <Col>
-            <p className="p">HSHSHSH</p>
+            <Image src={profile} className="profile" alt="Kali Linux"></Image>
+            <div className="info">
+              <h2 className="name">Douglas Zuniga</h2>
+              <p className="position">Software Developer</p>
+            </div>
           </Col>
         </Row>
       </Container>
