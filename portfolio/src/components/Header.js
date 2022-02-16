@@ -4,7 +4,7 @@ import "../static/css/header.css";
 
 const Header = () => {
   return (
-    <header>
+    <div>
       <Container>
         <Row className="header-row rounded-top">
           <Col>
@@ -16,7 +16,7 @@ const Header = () => {
           </Col>
         </Row>
       </Container>
-    </header>
+    </div>
   );
 };
 

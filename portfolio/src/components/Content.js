@@ -1,9 +1,9 @@
-import { Container, Row, Col} from "react-bootstrap/";
+import {Container, Row, Col} from "react-bootstrap/";
 import "../static/css/content.css";
 
 const Content = () => {
   return (
-    <content>
+    <div>
       <Container>
         <Row className="content-row">
           <Col>
@@ -11,7 +11,7 @@ const Content = () => {
           </Col>
         </Row>
       </Container>
-    </content>
+    </div>
   );
 };
 
