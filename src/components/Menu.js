@@ -9,15 +9,15 @@ const Menu = () => {
           <Navbar expand="lg" className="navbar navbar-expand-xl navbar-dark">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="#home" className="active">
+              <Nav className="me-auto menu-nav">
+                <Nav.Link className="menu-link active" href="#home">
                   Home
                 </Nav.Link>
-                <Nav.Link href="#PersonalProjects">Personal Projects</Nav.Link>
-                <Nav.Link href="#Certifications">Certifications</Nav.Link>
-                <Nav.Link href="#Resume">Resume</Nav.Link>
-                <Nav.Link href="#Contact">Contact</Nav.Link>
-                <Nav.Link href="#Credits">Credits</Nav.Link>
+                <Nav.Link className="menu-link" href="#PersonalProjects">Projects</Nav.Link>
+                <Nav.Link className="menu-link" href="#Certifications">Certifications</Nav.Link>
+                <Nav.Link className="menu-link" href="#Resume">Resume</Nav.Link>
+                <Nav.Link className="menu-link" href="#Contact">Contact</Nav.Link>
+                <Nav.Link className="menu-link" href="#Credits">Credits</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
