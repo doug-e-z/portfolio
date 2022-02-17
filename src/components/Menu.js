@@ -17,7 +17,6 @@ const Menu = () => {
                 <Nav.Link className="menu-link" href="#Certifications">Certifications</Nav.Link>
                 <Nav.Link className="menu-link" href="#Resume">Resume</Nav.Link>
                 <Nav.Link className="menu-link" href="#Contact">Contact</Nav.Link>
-                <Nav.Link className="menu-link" href="#Credits">Credits</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

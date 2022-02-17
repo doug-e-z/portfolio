@@ -7,7 +7,8 @@ const Content = () => {
       <Container>
         <Row className="content-row">
           <Col>
-           <p>Content goes here</p>
+            <h4> About Me</h4>
+            <p>Content goes here</p>
           </Col>
         </Row>
       </Container>
