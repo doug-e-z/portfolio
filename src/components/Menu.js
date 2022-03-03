@@ -13,10 +13,10 @@ const Menu = () => {
                 <Nav.Link className="menu-link active" href="/">
                   Home
                 </Nav.Link>
-                <Nav.Link className="menu-link" href="/Projects">Projects</Nav.Link>
-                <Nav.Link className="menu-link" href="/Certifications">Certifications</Nav.Link>
-                <Nav.Link className="menu-link" href="/Resume">Resume</Nav.Link>
-                <Nav.Link className="menu-link" href="/Contact">Contact</Nav.Link>
+                <Nav.Link className="menu-link" href="/projects">Projects</Nav.Link>
+                <Nav.Link className="menu-link" href="/certifications">Certifications</Nav.Link>
+                <Nav.Link className="menu-link" href="/resume">Resume</Nav.Link>
+                <Nav.Link className="menu-link" href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

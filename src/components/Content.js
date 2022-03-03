@@ -16,10 +16,10 @@ const Content = () => {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home/>}></Route>
-              <Route path="/Projects" element={<Projects/>}></Route>
-              <Route path="/Certifications" element={<Certifications/>}></Route>
-              <Route path="/Contact" element={<Contact/>}></Route>
-              <Route path="/Resume" element={<Resume/>}></Route>
+              <Route path="/projects" element={<Projects/>}></Route>
+              <Route path="/certifications" element={<Certifications/>}></Route>
+              <Route path="/contact" element={<Contact/>}></Route>
+              <Route path="/resume" element={<Resume/>}></Route>
             </Routes>
           </BrowserRouter>
         </Row>
