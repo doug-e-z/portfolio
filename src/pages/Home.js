@@ -10,6 +10,11 @@ const Home = () => {
           <h4 className="header-title">About Me</h4>
           <Col>
             <div>
+            <Image
+              src={sheridan}
+              className="sheridan"
+              alt="Sheridan College"
+            ></Image>
               <p>
                 I attended Algonquin College in Ottawa, Ontario when I was
                 younger and took a program called Game Development. That is
@@ -48,13 +53,6 @@ const Home = () => {
                 system automation.
               </p>
             </div>
-          </Col>
-          <Col>
-            <Image
-              src={sheridan}
-              className="sheridan"
-              alt="Sheridan College"
-            ></Image>
           </Col>
         </Row>
         <spam></spam>
