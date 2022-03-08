@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div>
       <Container>
-        <Row className="home-row-me">
-          <h4>About Me</h4>
+        <Row className="home-row border-dark border-top rounded-top">
+          <h4 className="header-title">About Me</h4>
           <Col>
             <div>
               <p>
@@ -57,8 +57,9 @@ const Home = () => {
             ></Image>
           </Col>
         </Row>
-        <Row className="home-row">
-          <h4>About The Website</h4>
+        <spam></spam>
+        <Row className="home-row border-dark border-top rounded-top">
+          <h4 className="header-title">About The Website</h4>
           <Col>
             <div>
               <p>
@@ -76,9 +77,6 @@ const Home = () => {
               </p>
             </div>
             <span></span>
-          </Col>
-          <Col>
-            <p>2nd</p>
           </Col>
         </Row>
       </Container>
