@@ -8,7 +8,7 @@ const Header = () => {
       <Container>
         <Row className="header-row rounded-top">
           <Col>
-            <Image src={profile} className="profile" alt="Kali Linux"></Image>
+            <Image src={profile} className="profile" alt="Profile Image"></Image>
             <div className="info">
               <h2 className="name">Douglas Zuniga</h2>
               <p className="position">Software Developer</p>
