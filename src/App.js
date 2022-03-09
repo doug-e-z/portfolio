@@ -4,7 +4,7 @@ import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import "./static/css/content.css";
 
-import { Container, Row, Col } from "react-bootstrap/";
+import { Container, Row} from "react-bootstrap/";
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";

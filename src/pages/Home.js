@@ -10,11 +10,11 @@ const Home = () => {
           <h4 className="header-title">About Me</h4>
           <Col>
             <div>
-            <Image
-              src={sheridan}
-              className="sheridan"
-              alt="Sheridan College"
-            ></Image>
+              <Image
+                src={sheridan}
+                className="sheridan"
+                alt="Sheridan College"
+              ></Image>
               <p>
                 I attended Algonquin College in Ottawa, Ontario when I was
                 younger and took a program called Game Development. That is
@@ -26,7 +26,7 @@ const Home = () => {
                 mission to learn more.
               </p>
             </div>
-            <span></span>
+
             <div>
               <p>
                 It wasn't until a few years later that I packed my stuff and
@@ -41,7 +41,7 @@ const Home = () => {
                 which remains as my favorite course.
               </p>
             </div>
-            <span></span>
+
             <div>
               <p>
                 Sheridan College as allowed me to become a well-rounded person
@@ -55,7 +55,7 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-        <spam></spam>
+
         <Row className="home-row border-dark border-top rounded-top">
           <h4 className="header-title">About The Website</h4>
           <Col>
@@ -63,18 +63,17 @@ const Home = () => {
               <p>
                 Having been recruited directly after school, I did not have a
                 chance to put myself out there. The goal is to be able to
-                provide context as to my capabilities as a Software Developer.
-                This site will host mainly personal projects as I cannot
-                disclose or share the work performed under my contractual
-                obligation.
+                provide context of my capabilities as a Software Developer. This
+                site will host mainly personal projects as I cannot disclose or
+                share the work performed under my contractual obligation.
               </p>
             </div>
             <div>
               <p>
-                This site is built using React.js framework, and is currently being hosted by Netlify. 
+                This site is built using React.js framework, and is currently
+                being hosted by Netlify.
               </p>
             </div>
-            <span></span>
           </Col>
         </Row>
       </Container>
