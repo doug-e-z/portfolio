@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap/";
 import { Document, Page, pdfjs } from "react-pdf";
 import suricata from "../static/pdf/Suricata.pdf";
@@ -19,77 +19,48 @@ const Certifications = () => {
   }
   const isMobile = width <= 500;
 
-  if (isMobile) {
-    return (
-      <div>
-        <Container>
-          <Row className="home-row border-dark border-top rounded-top">
-            <Col>
-              <div>
-                <Document
-                  className="document"
-                  file={degree}
-                  onLoadSuccess={onDocumentLoadSuccess}
-                  onLoadError={console.error}
-                >
+  return (
+    <div>
+      <Container>
+        <Row className="home-row border-dark border-top rounded-top">
+          <Col>
+            <div>
+              <Document
+                className="document"
+                file={degree}
+                onLoadSuccess={onDocumentLoadSuccess}
+                onLoadError={console.error}
+              >
+                {isMobile ? (
                   <Page pageNumber={pageNumber} scale={0.5} />
-                </Document>
-              </div>
-            </Col>
-          </Row>
-          <Row className="home-row border-dark border-top rounded-top">
-            <Col>
-              <div>
-                <Document
-                  className="document"
-                  file={suricata}
-                  onLoadSuccess={onDocumentLoadSuccess}
-                  onLoadError={console.error}
-                >
+                ) : (
+                  <Page pageNumber={pageNumber} scale={1} />
+                )}
+              </Document>
+            </div>
+          </Col>
+        </Row>
+        <Row className="home-row border-dark border-top rounded-top">
+          <Col>
+            <div>
+              <Document
+                className="document"
+                file={suricata}
+                onLoadSuccess={onDocumentLoadSuccess}
+                onLoadError={console.error}
+              >
+                {isMobile ? (
                   <Page pageNumber={pageNumber} scale={0.5} />
-                </Document>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    );
-  } else {
-    return (
-      <div>
-        <Container>
-          <Row className="home-row border-dark border-top rounded-top">
-            <Col>
-              <div>
-                <Document
-                  className="document"
-                  file={degree}
-                  onLoadSuccess={onDocumentLoadSuccess}
-                  onLoadError={console.error}
-                >
-                  <Page pageNumber={pageNumber} />
-                </Document>
-              </div>
-            </Col>
-          </Row>
-          <Row className="home-row border-dark border-top rounded-top">
-            <Col>
-              <div>
-                <Document
-                  className="document"
-                  file={suricata}
-                  onLoadSuccess={onDocumentLoadSuccess}
-                  onLoadError={console.error}
-                >
-                  <Page pageNumber={pageNumber} />
-                </Document>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    );
-  }
+                ) : (
+                  <Page pageNumber={pageNumber} scale={1} />
+                )}
+              </Document>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 };
 
 export default Certifications;
