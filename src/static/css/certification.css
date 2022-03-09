@@ -1,0 +1,23 @@
+.home-row {
+  background-color: rgb(71, 71, 71);
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.header-title {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.document {
+  height: auto;
+  width: 50%;
+  border-radius: 5%;
+  padding: 1%;
+}
+
+.react-pdf__Page__canvas {
+    width: 200% !important;
+    height: 200% !important;
+    padding-left: 3%;
+}
