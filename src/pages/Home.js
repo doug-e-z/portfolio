@@ -8,12 +8,12 @@ const Home = () => {
       <Container>
         <Row className="home-row border-dark border-top rounded-top">
           <h4 className="header-title">About Me</h4>
-          <Col>
+          <Col className="home-col-back">
             <div>
-              <Image
+              <Image 
                 src={sheridan}
                 className="sheridan"
-                alt="Sheridan College"
+                alt="Sheridan College "
               ></Image>
               <p>
                 I attended Algonquin College in Ottawa, Ontario when I was
@@ -58,7 +58,7 @@ const Home = () => {
 
         <Row className="home-row border-dark border-top rounded-top">
           <h4 className="header-title">About The Website</h4>
-          <Col>
+          <Col className="home-col-back">
             <div>
               <p>
                 Having been recruited directly after school, I did not have a
