@@ -14,3 +14,8 @@
 .label-view {
     margin-top: 1%;
 }
+
+.contact-col-back {
+  background-color: rgb(3, 70, 135);
+  padding: 5%;
+}

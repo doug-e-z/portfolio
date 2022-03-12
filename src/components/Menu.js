@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <div>
       <Container>
-        <Row className="navbar-row">
+        <Row className="menu-row">
           <Navbar expand="lg" className="navbar navbar-expand-xl navbar-dark">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

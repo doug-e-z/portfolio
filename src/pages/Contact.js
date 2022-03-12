@@ -10,8 +10,8 @@ const Contact = () => {
   return (
     <div>
       <Container className="container-view">
-        <Row className="form-title border-dark border rounded border-5">
-          <form className="form-view" onSubmit={onSubmit}>
+        <Row className="form-title border-dark border rounded">
+          <form className="form-view contact-col-back" onSubmit={onSubmit}>
             <fieldset>
               <legend>Contact Me</legend>
               <Col>
@@ -39,10 +39,10 @@ const Contact = () => {
               <Col>
                 <div>
                   <label className="form-label label-view">Message:</label>
-                  <textarea className="form-control" rows="4"></textarea>
+                  <textarea className="form-control" rows="4" placeholder="message content"></textarea>
                 </div>
               </Col>
-              <input className="label-view" type="submit" value="Submit" />
+              <input className="label-view" type="submit" value="Send" />
             </fieldset>
           </form>
         </Row>

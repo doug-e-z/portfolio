@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Container>
         <Menu />
-        <Row className="content-row">
+        <Row className="content-row rounded-top">
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/projects" element={<Projects />}></Route>

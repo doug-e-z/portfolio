@@ -4,10 +4,10 @@
     border-radius: 5%;
     float: right;
     padding: 1%;
+    opacity: 75%;
 }
 
 .home-row {
-    background-color: rgb(71, 71, 71);
     margin-top: 2%;
     margin-bottom: 1%;
 }
@@ -17,3 +17,7 @@
     margin-bottom: 1%;
 }
 
+.home-col-back {
+    background-color: rgb(3, 70, 135);
+    padding: 1.5%;
+}

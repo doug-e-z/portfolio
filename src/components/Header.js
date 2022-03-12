@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       <Container>
-        <Row className="header-row rounded-top">
+        <Row className="header-row rounded">
           <Col>
             <Image src={profile} className="profile" alt="Profile Image"></Image>
             <div className="info">
